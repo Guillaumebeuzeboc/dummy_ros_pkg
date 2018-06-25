@@ -1,0 +1,5 @@
+<launch>
+  <node name="dummy_node_cpp" pkg="dummy" type="dummy_node_cpp">
+    <rosparam command="load" file="$(find dummy)/config/config.yaml" />
+  </node>
+</launch>
